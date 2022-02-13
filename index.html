@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Family-tree</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
+    <script type="module" src="./js/script.js"></script>
 </head>
 <body>
     <h1 class="test_style">Family tree app</h1>
@@ -23,20 +23,16 @@
         </p>
     </form>
 
-    <table border="1">
-        <tr>
+    <table id="personsTable" border="1">
+        <thead>
             <td>Last name</td>
             <td>First name</td>
             <td>Middle name</td>
-            <td>Birth date</td>
-            <td>Gender</td>
-        </tr>
+        </thead>
         <tr>
             <td>Petrov</td>
             <td>Viktor</td>
             <td>Anatolyevich</td>
-            <td>31/03/1990</td>
-            <td>Male</td>
         </tr>
     </table>
 </body>
